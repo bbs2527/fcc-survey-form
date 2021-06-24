@@ -29,13 +29,61 @@
     
             <!--Form Portion-->
             <form action="#" id="survey-form">
-            <div class="form-group">
-                <label for="name-label">Name</label>
-                <input type="text" placeholder="Name" id="name" required>
-            </div>
-        
+                <div class="form-group">
+                    <label for="name-label">Name</label>
+                    <input type="text" placeholder="Name" id="name" required>
+                </div>
 
-        </form>
+                <div class="form-group">
+                    <label for="email-label">Email</label>
+                    <input type="text" placeholder="Email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="age-label">Age</label>
+                    <input type="number" placeholder="Age" id="number" required min="12" max="100">
+                </div>
+                <div class="form-group">
+                    <p>Which is your favorite class?</p>
+                    <select name="class" id="dropdown" required>
+                        <option disabled="" selected="" value="">Select your class</option>
+                        <option value="Soldier">Soldier</option>
+                        <option value="Vanguard">Vanguard</option>
+                        <option value="Adept">Adept</option>
+                        <option value="Sentinel">Sentinel</option>
+                        <option value="Engineer">Engineer</option>
+                        <option value="Infiltrator">Infiltrator</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>Is Mass Effect one of your favorite games?</p>
+                    <label for="">
+                        <input type="radio" name="fav-game" value="yes" checked>Yes!
+                    </label>
+                    <label for="">
+                        <input type="radio" name="fav-game" value="no">No...(wrong answer!)
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>What hobbies keep you busy on the Normandy?</p>
+                    <label for="">
+                        <input type="checkbox" name="hobbies" value="calibrations">Calibrations
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="hobbies" value="shepard-shuffle">Shepard Shuffling
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="hobbies" value="joker">Hanging with Joker
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>What was your favorite mission and why?</p>
+                    <textarea name="comment" id="comments" cols="40" rows="15" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+
+            <form>
         </div>
     </div>
     
