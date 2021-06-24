@@ -1,0 +1,20 @@
+/*Main portion*/
+
+body, html{
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12px;
+    
+}
+
+.bg-img{
+  background: url(../fcc-survey-form/images/5870934.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+/*Form Container*/
